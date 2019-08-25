@@ -3,7 +3,7 @@ git status
 read -n 1 -s -r -p  "Git status run Press any key to continue"
 git add .
 read -n 1 -s -r -p "Git add run Press any key to continue"
-git commit -m " a"
+git commit -m " added another9"
 read -n 1 -s -r -p "Git commit run, now w'll push to master, Press any key to continue"
 git push -u origin master
 
